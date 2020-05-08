@@ -1,0 +1,10 @@
+version: "3.7"
+
+services:
+  node:
+    image: yinyang/pneumonia_app
+    ports:
+      - 443:443
+      - 80:80
+    volumes:
+      - .:/run/secrets

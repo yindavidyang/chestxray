@@ -1,0 +1,1 @@
+protoc --decode onnx.ModelProto onnx.proto < pneumonia.onnx > pneumonia.onnx.txt
